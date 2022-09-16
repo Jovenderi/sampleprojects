@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	border:0;	
+}
+
+body {
+	font-family: Helvetica,Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic,“ヒラギノ角ゴ ProN W3″,“Hiragino Kaku Gothic ProN”, “メイリオ”,Meiryo, sans-serif;	 font-size: 14px; line-height: 25px; letter-spacing: 1px; color: #5b5b5b;
+	
+}
+a { text-decoration: none; color: #555; }
+a:hover {opacity: 0.8;filter:alpha(opacity=80);cursor:pointer;border:none;}
+
+
+
+
+.Main-Parent{width:100%;}
+.Main-Parent img {width:100%;}
+
+.Main-Child{width:80%; margin: 0 auto;padding:20px 0;}
+
+
+.space60{clear: both; height:60px;}
+.space30{clear: both; height:30px;}
+.space20{clear: both; height:20px;}
+.space10{clear: both; height:10px;}
+
+
+
+.title-text1{ text-align:center; font-size:30px; font-weight:bold; color:#555; margin:15px 0px; line-height: 40px}
+.title-text2{ text-align:center; font-size:20px; font-weight:bold; color:#555; margin:15px 0px; line-height: 40px}
+
+
+.row1{float:left; width:100%; text-align:center; color:#003a82; font-weight:bold; }
+.column1{float:left; width:32%; margin:0 2% 0 0;}
+.column1:last-child{margin:0}
+
+.item-txt{margin:15px 0;font-size:20px}
+
+.heart-btn1{float:left;width:60%;margin: 0 20%; }
+.heart1{ float:left;width:32%; margin:0 2% 0 0 ;}
+.heart1:last-child{margin:0;}
+.heart1 img{width: 90%;padding:5% 5%;transition:all 0.2s linear;}
+.heart1 img:hover{width: 100%;padding:0;transition:0.2s ease-in;}
+
+
+
+.heart-btn2{float:left;width:80%; margin:0 10%;}
+.heart2{ float:left;width:25%;margin:0 ;}
+.heart2 img{width: 90%;padding:5% 5%;transition:all 0.2s linear;}
+.heart2 img:hover{width: 100%;padding:0;transition:0.2s ease-in;}
+
+
+
+
+
+.Item-Area{float:left; width:80%; padding:0 10%;}
+.column2{float:left; width:47%;text-align:center;margin:0 6% 0 0;}
+.column2:last-child{margin:0;}
+
+.item-txt1 {color:#003a82; font-weight:bold; line-height: 5px; margin:15px 0;font-size: 25px;}
+.item-txt2 {color:#555;  line-height: 5px; margin-top:25px; font-size:18px}
+.item-txt3 {color:#555; margin:15px 0; font-size: 18px;}
+
+
+.button1 {
+  background-color: #f4511e;
+  border: none;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  color:#ffffff; background-color:#003a82; width: 50%; font-size:20px; padding:10px 0; margin: 0 25%; 
+  
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+  
+}
+
+
+.title-sub{float:left; width:100%; font-size:35px;padding:10px 0; font-weight:bold;color:#473334; }
+.title-sub img{margin:0 30px;width:250px;  height:25px}
+
+.title-sub1 {
+	float: left;
+   width: 60%; 
+   text-align: center; 
+   border-bottom: 5px solid #555; 
+   line-height: 0.1em;
+   margin: 10px 20% ; 
+   font-size:35px;
+   font-weight:bold;
+   color:#555; 
+}
+
+.title-sub1 span { 
+    background:#fff; 
+    padding:0 20px; 
+}
+
+
+.resortwrapmidwrap	{width: 1000px; margin-top: 10px;  position: relative;}
+.resortfullwrap {width: 100%;}
+
+.titlep2 {position: absolute;top: 138px;right: 300px;width: 450px;color: #000;font-size: 35px;}
+
+.title-jtext {font-size: 20px;}
+
+.resortwtr1	{
+	width:100%;
+	background: url(https://image.rakuten.co.jp/glv/cabinet/landing/07052305/bagsandshoes.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 500px; 
+	position: relative; 
+	text-align: center}
+	
+
+
+
+	
+	
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px){
+.Main-Child{width:100%;}
+.space60{clear: both; height:60px; }
+
+.title-text1{font-size:50px; line-height:70px;}
+.title-text2{font-size:40px; line-height:70px;}
+
+	.column1{float:left; width:33%; margin:0 0.5% 0 0;}
+	.column1:last-child{margin:0}
+	
+	.item-txt{font-size:35px}
+	
+	.title-sub1 {
+	   float: left;
+	   width: 90%; 
+	   text-align: center; 
+	   border-bottom: 5px solid #555; 
+	   line-height: 0.1em;
+	   margin: 10px 5% ; 
+	   font-size:50px;
+	   
+	}
+	
+	.title-sub1 span { 
+		background:#fff; 
+		padding:0 20px; 
+	}
+	
+.heart-btn1{float:left;width:100%;margin: 0;}
+.heart1{ float:left;width:33%; margin:0 0.5% 0 0 ;}
+.heart1:last-child{margin:0;}
+.heart1 img{width: 100%;padding:0;transition:none;}
+.heart1 img:hover{width: 100%;padding:0;transition:none;}
+
+
+.heart-btn2{float:left;width:70%; margin:0 15%;}
+.heart2{ float:left;width:50%;margin:0 ;}
+.heart2 img{width: 100%;padding:5% 0;transition:none}
+.heart2 img:hover{width: 100%;padding:5% 0;transition:none}
+
+
+	.titlep2 {top: 50px;right: 0;width: 650px;color: #fff;font-size: 50px;}
+	.title-jtext {font-size: 40px;line-height: 50px;}
+
+	.resortwtr1	{
+	width:100%;
+	background: url(https://image.rakuten.co.jp/glv/cabinet/landing/07052305/bagsandshoes.jpg) no-repeat center  center scroll; -webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 500px; 
+	position: relative; 
+	text-align: center}
+	
+	
+.Item-Area{width:98%; padding:0; margin:0 1% }
+.column2{width:49%;margin:0 2% 0 0}
+.column2:last-child{margin:0;}
+	
+	.item-txt1 {margin-top:30px;font-size: 40px;}
+	.item-txt2 {margin-top:30px; font-size:28px; line-height:40px;}
+	.item-txt3 {margin-top:10px; font-size: 28px;line-height:40px;}
+	
+	.button1 {
+	  transition: none;
+	  width: 100%; font-size:40px; padding:30px 0; margin:0; 
+	  
+	}
+	
+	.button1 span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: none;
+	  content: '\00bb';
+	  opacity: 1;
+	  top: 0;
+	  right:0;
+	}
+	
+	.button1 span:before {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 1;
+	  top: 0;
+	  right: -30px;
+	  transition: 0.5s;
+	}
+	
+	.button1 span:after {
+	  content: none;
+	  position: none;
+	  opacity: 0;
+	  top: 0;
+	  right:0;
+	  transition: 0;
+	}
+	
+	
+	
+	.button1:hover span {
+	  padding-right: 0;
+	}
+	
+	.button1:hover span:after {
+	  opacity: 0;
+	  right: 0;
+	  
+	}
+	
+	
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+.Main-Child{width:100%;}
+
+.title-text1{font-size:30px; line-height:70px;}
+.title-text2{font-size:30px; line-height:70px;}	
+
+.item-txt{font-size:30px}
+
+	.title-sub1 {
+	   float: left;
+	   width: 90%; 
+	   text-align: center; 
+	   border-bottom: 5px solid #555; 
+	   line-height: 0.1em;
+	   margin: 10px 5% ; 
+	   font-size:45px;
+	   
+	}
+	
+	.title-sub1 span { 
+		background:#fff; 
+		padding:0 20px; 
+	}
+	
+.heart-btn1{float:left;width:76%;margin: 0 12%;}
+.heart1{ float:left;width:33%; margin:0 0.5% 0 0;}
+.heart1:last-child{margin:0;}
+.heart1 img{width: 100%;padding:0;transition:none;}
+.heart1 img:hover{width: 100%;padding:0;transition:none;}
+
+.heart-btn2{float:left;width:100%; margin:0 ;}
+.heart2{ float:left;width:25%;margin:0 ;}
+.heart2 img{width: 100%;padding:5% 0;transition:none}
+.heart2 img:hover{width: 100%;padding:5% 0;transition:none}
+
+
+.titlep2 {top: 50px;right: 0;width: 650px;color: #fff;font-size: 50px;}
+	.title-jtext {font-size: 40px;line-height: 50px;}
+
+	.resortwtr1	{
+	width:100%;
+	background: url(https://image.rakuten.co.jp/glv/cabinet/landing/07052305/bagsandshoes.jpg) no-repeat center  center scroll; -webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	height: 500px; 
+	position: relative; 
+	text-align: center}
+	
+.Item-Area{width:96%; padding:0; margin:0 2% ;}
+.column2{width:49%;margin:0 2% 0 0}
+.column2:last-child{margin:0;}
+
+	.item-txt1 {margin-top:30px;font-size: 40px;}
+	.item-txt2 {margin-top:30px; font-size:28px; line-height:40px;}
+	.item-txt3 {margin-top:10px; font-size: 28px;line-height:40px;}
+	
+	
+	.button1 {
+	  transition: none;
+	  width: 100%; font-size:40px; padding:30px 0; margin:0; 
+	  
+	}
+	
+	.button1 span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: none;
+	  content: '\00bb';
+	  opacity: 1;
+	  top: 0;
+	  right:0;
+	}
+	
+	.button1 span:before {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 1;
+	  top: 0;
+	  right: -30px;
+	  transition: 0.5s;
+	}
+	
+	.button1 span:after {
+	  content: none;
+	  position: none;
+	  opacity: 0;
+	  top: 0;
+	  right:0;
+	  transition: 0;
+	}
+	
+	
+	
+	.button1:hover span {
+	  padding-right: 0;
+	}
+	
+	.button1:hover span:after {
+	  opacity: 0;
+	  right: 0;
+	  
+	}
+	
+	}
+
