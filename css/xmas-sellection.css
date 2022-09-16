@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding: 0;
+	color:#333333;
+}
+body, html{
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color:#f5f5dd;
+	background: url("https://image.rakuten.co.jp/glv/cabinet/landing/08575172/xmaspage-bg.jpg")no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	position: relative; 
+	text-align: center;
+}
+html { scroll-behavior: smooth;}
+
+a { text-decoration: none; color: #5b5b5b; }
+a:hover {opacity: 0.8;filter:alpha(opacity=80);cursor:pointer;border:none;}
+
+.banner{width:100%;float:left;}
+.topbannerpc{width:100%;float:left;}
+.topbannersp{display: none; width:100%;float:left;}
+.main_container{float:left;width: 80%;margin:0 10% ;
+	background-color: #fdf9ed;
+	background: url("https://image.rakuten.co.jp/glv/cabinet/landing/08575172/xmaspage-bg1.jpg")no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+	box-shadow: 1px 10px 15px #c7ad7f;}
+.title1{float:left;width: 100%;font-size: 2.2vw; margin:60px 0; font-weight: bold;}
+
+.item1{float: left; width: 30%; margin: 0 1.66% 50px 1.66%; background-color: #fff; padding: 20px 0; border-radius: 20px; position: relative;}
+
+.item1 img{float: left;margin-bottom: 10px; width: 96%; margin: 0 2% 10px 2%; position: relative; top: 0; left: 0;}
+.item1 p{float: left;font-size: 1.5vw;padding: 10px 10%; width: 80%; height: 90px; /*background-color: green;*/}
+.item1 button {float: left;width: 80%; background-color:#c7ad7f;font-size: 1.5vw;padding:5px 0; margin: 0 10%; border: 0;border-radius: 20px;}
+.item1 button:hover {color:#fdf9ed; background-color:#a57a5a;}
+.item1 .image2 {position: absolute; top: 20px; left: 0; opacity: 0.8; display: block;}
+
+.clr1{clear: both; height: 20px;}
+.clr2{clear: both; height: 50px;}
+.pagebutton{width: 60%; background-color:#c7ad7f; font-size: 1.8vw; font-weight: bold; padding:10px 0; margin: 0 20%; border: 0;border-radius: 20px;}
+.pagebutton:hover {color:#fdf9ed; background-color:#a57a5a;}
+
+
+#snow1{position:absolute; width: 30%;top: 200px; left:0;}
+#snow2{position:absolute; width: 30%;top: 200px; right:0;-webkit-transform: scaleX(-1);transform: scaleX(-1);}
+
+@media only screen and (max-device-width : 280px) {
+	.topbannerpc{display:none}
+	.topbannersp{display: block;}
+	.main_container{width: 100%;margin:0;}
+	.title1{width: 90%;font-size: 5vw; margin:30px 5%;}
+	.item1{ width: 48%; margin: 0 1% 20px 1%;}
+	.item1 p{font-size: 3vw;padding: 10px 2%; width: 96%; height: 100px;/*background-color: yellow*/}
+	.item1 button {font-size: 3vw;width: 100%; padding:5px 0; margin: 0; border: 0;border-radius: 10px;}
+	.item1 button:hover {color:#333333; background-color:#c7ad7f;}
+	.clr1{clear: both; height: 0;}
+	.clr2{clear: both; height: 20px;}
+	.pagebutton{font-size: 2vw;width: 90%; background-color:#c7ad7f; padding:10px 0; margin: 0 5%;border-radius: 10px;}
+	.pagebutton:hover {color:#fdf9ed; background-color:#a57a5a;}
+	#snow1, #snow2{display:none;}
+	
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px)  {
+	.topbannerpc{display:none}
+	.topbannersp{display: block;}
+	.main_container{width: 100%;margin:0;}
+	.title1{width: 90%;font-size: 5vw; margin:30px 5%;}
+	.item1{ width: 48%; margin: 0 1% 20px 1%;}
+	.item1 p{font-size: 3vw;padding: 10px 2%; width: 96%; height: 100px;/*background-color: pink*/ }
+	.item1 button {font-size: 3vw;width: 100%; padding:5px 0; margin: 0; border: 0;border-radius: 10px;}
+	.item1 button:hover {color:#333333; background-color:#c7ad7f;}
+	.clr1{clear: both; height: 0;}
+	.clr2{clear: both; height: 50px;}
+	.pagebutton{font-size: 2vw;width: 90%; background-color:#c7ad7f; padding:10px 0; margin: 0 5%;border-radius: 10px;}
+	.pagebutton:hover {color:#fdf9ed; background-color:#a57a5a;}
+	
+	#snow1, #snow2{display:none;}
+	
+	
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+	.topbannerpc{display:none}
+	.topbannersp{display: block;}
+	.main_container{width: 100%;margin:0;}
+	.title1{width: 90%;font-size: 5vw; margin:30px 5%;}
+	.item1{ width: 48%; margin: 0 1% 20px 1%;}
+	.item1 p{font-size: 3vw;padding: 10px 2%; width: 96%; height: 90px; /*background-color: red*/}
+	.item1 button {font-size: 3vw;width: 100%; padding:5px 0; margin: 0; border: 0;border-radius: 10px;}
+	.item1 button:hover {color:#333333; background-color:#c7ad7f;}
+	.clr1{clear: both; height: 0;}
+	.clr2{clear: both; height: 50px;}
+	.pagebutton{font-size: 3vw;width: 90%; background-color:#c7ad7f; padding:10px 0; margin: 0 5%;border-radius: 10px;}
+	.pagebutton:hover {color:#fdf9ed; background-color:#a57a5a;}
+	#snow1, #snow2{display:none;}
+	
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px)  {
+	.topbannerpc{display:none}
+	.topbannersp{display: block;}
+	.main_container{width: 100%;margin:0;}
+	.title1{width: 90%;font-size: 5vw; margin:30px 5%;}
+	.item1{ width: 48%; margin: 0 1% 20px 1%;}
+	.item1 p{font-size: 3vw;padding: 10px 2%; width: 96%; height: 100px;/*background-color: pink*/ }
+	.item1 button {font-size: 3vw;width: 100%; padding:5px 0; margin: 0; border: 0;border-radius: 10px;}
+	.item1 button:hover {color:#333333; background-color:#c7ad7f;}
+	.clr1{clear: both; height: 0;}
+	.clr2{clear: both; height: 50px;}
+	.pagebutton{font-size: 2vw;width: 90%; background-color:#c7ad7f; padding:10px 0; margin: 0 5%;border-radius: 10px;}
+	.pagebutton:hover {color:#fdf9ed; background-color:#a57a5a;}
+	
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+	.topbannerpc{display:none}
+	.topbannersp{display: block;}
+	.main_container{width: 100%;margin:0;}
+	.title1{width: 90%;font-size: 5vw; margin:30px 5%;}
+	.item1{ width: 48%; margin: 0 1% 20px 1%;}
+	.item1 p{font-size: 3vw;padding: 10px 2%; width: 96%; height: 90px; /*background-color: red*/}
+	.item1 button {font-size: 3vw;width: 100%; padding:5px 0; margin: 0; border: 0;border-radius: 10px;}
+	.item1 button:hover {color:#333333; background-color:#c7ad7f;}
+	.clr1{clear: both; height: 0;}
+	.clr2{clear: both; height: 50px;}
+	.pagebutton{font-size: 3vw;width: 90%; background-color:#c7ad7f; padding:10px 0; margin: 0 5%;border-radius: 10px;}
+	.pagebutton:hover {color:#fdf9ed; background-color:#a57a5a;}
+	#snow1, #snow2{display:none;}
+	
+}
+
