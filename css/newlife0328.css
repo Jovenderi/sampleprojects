@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html { scroll-behavior: smooth;}
+body {font-family: Helvetica,Arial, Roboto,Meiryo, sans-serif; color: #2e2e2e; margin: 0;padding:0;
+	background-color:#fce4d6;
+	background: url("https://image.rakuten.co.jp/glv/cabinet/newlife/08844222/page_bg.jpg")no-repeat center center fixed; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	position: relative; 
+	
+}
+a { text-decoration: none; color: #2e2e2e;}
+
+
+h2 { font-size: 35px; color: #2e2e2e; text-align: center; font-weight: normal; }
+h3 { font-size: 25px; color: #2e2e2e; text-align: center; font-weight: normal; }
+
+.titletab{font-size: 35px; text-align: center; font-weight: bold; color: #2e2e2e}
+.titletab2{font-size: 29px; text-align: center; font-weight: bold; color: #2e2e2e}
+
+.rosetab{font-size: 30px; text-align: center; font-weight: bold;background-color: #ff6699; color: #fff}
+.browntab{font-size: 30px; text-align: center; font-weight: bold;background-color: #7b380b; color: #fff}
+.orangetab{font-size: 30px; text-align: center; font-weight: bold;background-color: #ed833b; color: #fff}
+.pinktab{font-size: 30px; text-align: center; font-weight: bold;background-color: #eda1c9; color: #fff}
+.greentab{font-size: 30px; text-align: center; font-weight: bold;background-color: #548235; color: #fff}
+.bluetab{font-size: 30px; text-align: center; font-weight: bold;background-color: #0070c0; color: #fff}
+.darktab{font-size: 30px; text-align: center; font-weight: bold;background-color: #262626; color: #fff}
+
+.subbtn{font-size: 20px;; width: 60%; margin: 0 20%; padding: 10px 0;}
+
+.topbnr, .topbnrbttm {display: block; }
+.topbnr-sp {display: none;}
+
+.topbnr{width: 100%; float: left; padding:0;}
+.container {width: 1200px; margin: 0 auto;}
+
+.mainicon{position: absolute; width:23%; top: 5px; left: 437px; opacity: 0.9; z-index: 1;}
+.mainicon1{position: absolute;width:30%; bottom: 60px; left: -51px;opacity: 0.9; z-index: 1;}
+.subicon{position: absolute;width:30%; bottom: 60px; left: 390px;opacity: 0.9; z-index: 1;}
+.icontxt {position: absolute; top: 70px; left: 22px;color: #fff;z-index: 999999999;font-size: 15px;text-align: center; font-weight: bold;}
+.priceoff {font-size:23px}
+.subbrand{background-color:#f69896; color: #fff; padding: 5px; text-align: center; font-size: 20px;}
+.subbrand:hover{background-color:#781717;}
+.subprice{font-size: 28px; text-align: center; text-decoration: line-through; font-style: italic;}
+
+.price{font-size: 45px; color:#be202f; text-align: center; font-weight: bold;}
+
+.couponcodetxt {text-align: center; font-size: 20px; margin-top: 5px}
+.couponcodetxt2 {text-align: center; font-size: 19px; margin-top: 5px}.coupontxt {font-size: 20px; font-weight: bold;  text-align: center; color: #781717;}
+
+.coupondate {background-color:#454545; color: #fff; padding: 5px; text-align: right; font-size: 20px;}
+.coup-cont1 {float: left; width: 100%; margin: 0;}
+.titlebtn{float:left;width: 50%; margin: 5px 25%;}
+.titlebtn:hover{ opacity: 0.8}
+
+
+
+.boxedleft1 {float: left; width: 33%; margin-right: 0; padding: 2% 8.5% 2% 0; padding-left: 8.5%; background-color: #fff; position: relative;}
+.widedesc {float: left; background-color: #efefef; width: 50%; padding: 9.03% 0;}
+.widepara1 {font-size: 25px; text-align: center;}
+.widepara2 {font-size: 70px; text-align: center;}
+.widepara3 {font-size: 25px; font-weight: bold; text-align: center;}
+.wideprice {font-size: 45px; color: #be202f; font-weight: bold; text-align: center;}
+
+.boxedleft {float: left; width: 27%; margin:10px 1%; padding:2%; background-color: #fff; position: relative;}
+.boxedright {float: right; width: 28%; margin: 0; padding: 2%; background-color: #fff; position: relative;}
+
+.boxedleft:hover .topimg{ opacity: 0.95;}
+.widedesc:hover { background-color: #ffe688; transition: 0.3s;}
+
+.boxedright:hover .topimg{ opacity: 0.95;}
+.boxedleft1:hover .topimg{ opacity: 0.9;}
+
+.boxedcont {width: 90%; margin: 0 auto;}
+
+.topbtn:hover {
+  background-color: #781717;
+	color: #fff;
+}
+
+.coup-cont {float: left; width: 80%; margin: 0 10%;}
+.coupons {float: left; margin: 10px 1% 70px 1%; width: 31%;text-align: center; padding: 5px 0;}
+.coup-bnr img { width: 50%;}
+
+.coupon1 { width: 370px; float: left; }
+.coupon1a { width: 370px; float: right; }
+
+.coup-cont2{float:left;width: 50%; margin: 0 25% 100px 25%;}
+.coupon2{float: left; margin: 10px 1% 10px 1%; width: 48%;text-align: center;}
+
+.title1{width:100%;font-size: 25px; font-weight: bold; padding: 5px 0;color: #ffffff}
+.tdesc{width:100%;font-size: 18px;padding: 5px 0; line-height: 30px;color: #ffffff }
+.tbtn{width:70%;margin: 0 15%; font-size: 20px;font-weight: bold; padding: 5px 0;color: #ffffff; background-color: #000; border-radius: 20px; transition: 0.3s;}
+.itemdiv{width: 100%; margin: 0 auto; position: relative;}
+.itemdiv1{width: 90%; margin: 0 auto; position: relative}
+.clrspace{clear: both; height: 30px;}
+.brklne {display:none;}
+.couponbanner{width: 50%}
+
+
+.coupons1 {float: left; margin: 2%; width: 28.5%;}
+.fontsmall {font-size:25px;}
+.fontsmall1 {font-size:20px;}
+
+.coupons .tbtn:hover { background-color: white; color: black;}
+.clrspace1 {clear: both; height: 50px;}
+
+.coups {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.timer {
+    position: relative;
+}
+
+.timerlink {
+    position: absolute;
+    top: 0;
+    left: 275px;
+    display: inline-block;
+    width: 950px;
+    height: 250px;
+    z-index: 5;
+}
+
+
+.topbtn { display: block;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 99;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: #f69896;
+color: #fff;
+cursor: pointer;
+padding: 15px;
+border-radius: 4px;
+}
+
+.sitetopbtn { display: block;
+position: fixed;
+bottom: 110px;
+right: 20px;
+z-index: 99;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: #454545;
+color: #fff !important;
+cursor: pointer;
+padding: 15px;
+border-radius: 4px;
+}
+
+
+.sitetopbtn a {color: #fff !important;}
+.sitetopbtn:hover {
+	opacity: 0.7;
+}
+
+.twentyfootpc {display: block;}
+.twentyfootsp {display: none;}
+.redbanner{width: 80%; margin: 0 auto; background-color:#BE202F; color:#FCED20; font-size: 40px; font-weight: bold; padding: 10px 0; text-align:center;}
+#orangebanner{width: 50%; margin: 0 25%;}
+
+
+.yellowbanner{float:left;width: 100%; margin: 0; background-color:#faffd8; border-radius: 0 0  50px 50px; font-size: 25px;
+	padding: 0 0 20px 0; text-align:center;}
+.ytext{color: #2e2e2e;width: 70%; margin: 0 10% 50px 10%; padding: 50px 5%;  border:2px solid #000000; }
+.ytext span{color: #be2330;font-weight: bold; }
+.ztext span{color: #ff6699;font-weight: bold; }
+.red{font-size: 40px; font-weight: bold;}
+#campaign{margin: 30px 10%; width: 80%}
+
+#igbanner{margin: 30px 10%; width: 80%}
+.wrapperfull {width: 100%;}
+		#iffooter{width: 100%; height: 1049px; margin-bottom: -10px; }
+.titlebanner{float: left; position: relative;
+	width: 70%; margin: 0 15%; background-color: #f69896;
+	font-size: 20px; text-align: center; padding:10px 0 ; color: #fff;}
+.titlebanner img, .txt_icon{float:left; width: 15%;}
+.txt_icon{ width: 70%; margin-top: 20px;}
+.txt_icon span{text-align: center; font-weight: bold; font-size: 30px; width:100%; line-height: 25px; }
+.yamazakibanner{width: 60%; margin: 20px 20%; }
+.gullibanner{width: 80%; margin: 20px 10%; }
+
+
+.titlebanner1{float: left; position: relative; padding: 10px 0;
+			  width: 70%; margin: 0 15%; background-color: #f69896;
+			  color: #fff; border-radius: 50px;}
+
+.txt_icon1{position: relative;font-size: 30px; font-weight: bold; width: 100%;text-align: center; line-height: 30px; margin-bottom: 10px;}
+.txt_icon2{position: relative;font-size: 20px; width: 100%;text-align: center;}
+.btn_img1 {position:absolute; width: 10%; top:5px; left: 50px;}
+.btn_img2 {position:absolute; width: 10%; top:5px; left: 700px;}
+#alert{position:absolute; width: 15%;top: -40px; left: 140px; transform: rotate(-30deg); }
+.alert1{position:absolute; width: 15%;top: -40px; left: -70px; transform: rotate(-20deg); }
+.alert1a{position:absolute; width: 15%;top: -40px; left: 580px; transform: rotate(-20deg); }
+.specialclear{display:none; clear: both;}
+.specialclear1{display:block; clear: both;}
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) 
+{
+    
+    
+    h1 { font-size: 33px; color: #2e2e2e; text-align: center; font-weight: bold; padding-bottom: 20px; }
+    h2 { font-size: 33px !important; color: #2e2e2e; text-align: center; font-weight: normal; }
+    
+    .topbnr {display: none;}
+	.topbnrbttm {display: block;}
+    .topbnr-sp {display:block;}
+    
+    .container {width: 100%; margin: 0 auto;}
+    .coup-cont1 {width: 100%; margin: 0 0 50px 0;}
+    .coupon1 {margin: 5px 1%; width: 48%;}
+	.coupon1a {margin: 5px 1%; width: 48%;}
+
+    .coup-cont2{float:left;width: 90%; margin: 0 5% 100px 5%;}
+
+.coupondate {font-size: 28px;}
+    .coup-cont {width: 100%; margin: 0;}
+    .coupons {margin: 5px 1%; width: 98%;}
+    .coupons img{float:left;width: 50%;margin: 0;}
+
+    .title1{float:left;width: 48%;margin: 75px 1% 5px 1%; font-size: 30px;  padding: 5px 0;}
+    .tdesc{float:left;width: 48%;margin: 5px 1%;font-size: 25px;padding: 5px 0; line-height: 50px;}
+    .tbtn{float:left;width: 48%;margin: 0 1%; font-size: 35px; padding: 2px 0;}
+
+
+    .itemdiv{float:left;width: 100%;}
+    .itemdiv1 {float:left;width: 100%; margin-bottom: -5%;}
+    
+    .boxedleft1 {margin-right: 3%; margin-left: 5%; padding: 5%; padding-left: 38px;}
+    .widedesc {float: left; width: 45%; padding: 6% 0; background-color: #f13364; color: #FFF;}
+    .wideprice {background-color: #FFF; padding: 2%;}
+    .widepara1 {font-size: 27px;}
+    .widepara2 {font-size: 85px;}
+    .widepara3 {font-size: 28px;}
+   
+    .boxedleft {width: 46%; margin:30px 1%; padding: 1%;}
+    .boxedright {width: 40%; margin:0 5% 0 5%; padding: 1%;background-color: #fff; position: relative;}
+    .mainicon{position: absolute; width:25%; top: 9px; left: 299px; opacity: 0.9; z-index: 1;}
+	.mainicon1{position: absolute;width:30%; bottom: 50px; left: -55px;opacity: 0.9; z-index: 1;}
+	.subicon{position: absolute;width:30%; bottom: 50px; left: 340px;opacity: 0.9; z-index: 1;}
+	.icontxt {position: absolute; top: 55px; left: 5px;color: #fff;z-index: 999999999;font-size: 15px;text-align: center; font-weight: bold;}
+    
+	.priceoff{font-size: 27px; }
+	.subbrand{display:block; width: 80%; margin: 0 10%; font-size: 25px;}
+	.subprice{font-size: 37px;}
+    .price{font-size: 46px; }
+
+    .clrspace{clear: both; height: 60px;}
+    .clrspace1 {clear: both; height: 85px;}
+    
+    .brklne {display:block;}
+    .topbtn {
+    bottom: 20px;
+    right: 10px;
+    font-size: 29px;
+    }
+     .sitetopbtn {
+    bottom: 155px;
+    right: 10px;
+    font-size: 28px;
+		 text-align: center;
+    }
+	.coup-cont1 {width: 95%; margin: 3%;}
+	.coupons1 {float:left; width: 47.5%; margin: 0; padding: 1%;}
+
+    .couponbanner{width: 90%}
+
+    .widedesc:hover { background-color: #be202f; transition: 0.3s;}
+	.xtext, .ytext, .ztext {font-size:20px; line-height: 55px;}
+	.coups {width: 92.5%; margin: 0 auto;}
+    
+    .timerlink {
+        position: absolute;
+        top: 0;
+        left: 30px;
+        display: inline-block;
+        width: 950px;
+        height: 250px;
+        z-index: 5;
+    } 
+	
+	.twentyfootpc {display: none;}
+	.twentyfootsp {display: block; widows: 100%;}
+	
+	.redbanner{width: 90%; margin: 0 auto;}
+	#orangebanner{width: 90%; margin: 0 5%;}
+	.yellowbanner{width: 96%; margin: 0; padding: 0 2% 10px 2%}
+	.tab1{width: 48%; font-size: 40px;}
+	.rosetab, .browntab, .orangetab, .pinktab, .greentab, .bluetab, .darktab {font-size: 40px; padding: 5px 0 }
+	.subbtn{width: 96%; margin: 0 2%; padding: 10px 0; }
+	#campaign{margin: 30px 0; width: 100%}
+	#igbanner{margin: 30px 0; width: 100%}
+    .ytext{width: 96%; margin: 0 0 50px 0; padding: 50px 2%;}
+	
+	.titlebtn{float:left;width: 90%; margin: 5px 5%;}
+	
+	.titlebanner1{padding: 20px 0;width: 98%; margin: 0 1%;border-radius: 50px;}
+
+	.txt_icon1{font-size: 45px;margin-bottom: 10px; line-height: 40px;}
+	.txt_icon2{font-size: 30px; width: 100%;text-align: center;}
+	.btn_img1 {display: none}
+	.btn_img2 {display: none}
+	#alert{position:absolute; width: 20%;top: -40px; left: 20px; transform: rotate(-30deg); }
+	.alert1{position:absolute; width: 20%;top: -80px; left: -10px; transform: rotate(-20deg); }
+	.alert1a{position:absolute; width: 20%;top: -50px; left: 738px; transform: rotate(-20deg); }    
+    
+	.yamazakibanner{width: 100%; margin: 20px 0; }
+	.gullibanner{width: 100%; margin: 20px 0; }
+	
+	
+	.specialclear{display:block; clear: both;}
+	.specialclear1{display:none; clear: both;}
+}
+
